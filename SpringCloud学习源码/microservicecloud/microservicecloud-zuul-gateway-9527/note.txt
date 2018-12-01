@@ -1,0 +1,4 @@
+访问规则：
+1.http://myzuul.com:9527/microservicecloud-dept/dept/get/2
+2.http://localhost:9527/mydept/dept/get/2
+3.http://localhost:9527/atguigu/mydept/dept/get/2

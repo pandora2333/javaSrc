@@ -1,0 +1,3 @@
+使用说明：
+1.监控的客户端：localhost:9001/hystrix
+2.监控的实现了hystrix的微服务应用：localhost:8001/hystrix.stream

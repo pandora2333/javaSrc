@@ -1,0 +1,11 @@
+使用分布式配置步骤：
+	1.用自己的GitHub建一个名为microservicecloud-config的新的repository
+	2.由上一步获得SSH协议的git地址
+	3.本地硬盘目录新建git仓库并clone：git clone git@github.com:pandora2333/microservicecloud-config.git
+	4.在本地的仓库（刚建的）新建配置文件application.yml
+	5.将上一步的yml文件推送到GitHub上：
+		1.git status：查看当前本地仓库中文件状态
+		2.git add .:将所有文件提交
+		3.git commit -m ""：提交文件并备注修改信息、
+		4.git push origin master：正式上传
+	6.新建一个独立的配置微服务模块
